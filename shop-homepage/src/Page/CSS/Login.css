@@ -1,0 +1,67 @@
+
+label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  .loginFormcls {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    padding: 30px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  input {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  .registerbtn{
+      text-align: center;
+      text-decoration: none;
+  }
+  .visually-hidden {
+    visibility: hidden;
+  }
+  .visually-true {
+    visibility: visible;
+    color: red;
+  }
+  .isLoadingLogin {
+    position: fixed;
+    padding-top: 20%;
+    padding-left: 12%;
+    padding-bottom: 40%;
+    padding-right: 55%;
+    background-color: transparent;
+    top: 0;
+  }
+  .LoginMainDiv{
+    padding-top: 10%;
+    padding-left: 30%;
+    padding-right: 10%;
+    padding-bottom: 30%;
+  }
+
+  @media (max-width:600px) {
+    .LoginMainDiv{
+      padding-top: 10%;
+      padding-left: 1%;
+      padding-right: 150%;
+      padding-bottom: 150%;
+    }
+    .LoginMainDivh1{
+      display: flexbox;
+    }
+  }
+
+  @media (min-width:600px) and (max-width:600px)  {
+    .LoginMainDiv{
+      padding-top: 10%;
+      padding-left: 0%;
+      padding-right: 5%;
+      padding-bottom: 150%;
+    }
+  }

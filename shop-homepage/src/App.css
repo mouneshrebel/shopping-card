@@ -1,0 +1,34 @@
+footer h5{
+  color: white;
+  text-align: center;
+  padding: 4%;
+}
+.StartBootstrap{
+  margin-left: 10%;
+  background-color: transparent;
+  border: none;
+  font-size: large;
+  font-weight: 450;
+}
+.Shopinstyle{
+  text-align: center;
+  color: white;
+  padding: 10%;
+}
+.Shopinstyle h1{
+  font-weight: 900;
+  font-size: 50px;
+}
+.fullcart{
+  margin-right: 20%;
+}
+
+@media (max-width:600px) {
+  .Shopinstyle h1{
+    margin-top: 10%;
+    font-size: larger;
+  }
+  .Shopinstyle h5{
+    font-size: large;
+  }
+}
